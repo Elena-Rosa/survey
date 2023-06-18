@@ -17,7 +17,7 @@ This is survey with five questions that determine one out of three coding langua
 
 ## Setup/Installation requirements
 
-* _Clone repo from Github to your desktop with this command. $ git clone *https://mishymushy.github.io/portfolioLandingPage/
+* _Clone repo from Github to your desktop with this command. $ git clone *https://mishymushy.github.io/survey
 
 * _Open index.html in a browser. 
 
