@@ -2,7 +2,34 @@
 <html lang="en-US">
 
 <head>
+    <title>Amusement Park</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/scripts.js"></script>
-    <title>coding survey</title>
+    <script src="js/script.js"></script>
 </head>
+
+<body>
+    <div>
+        <h1>Let's Code!</h1>
+
+        <p>Welcome to Catch Code!</p>
+        <p>Please full out this survey to determine the best language for you!</p>
+
+        <form id="userInfo">
+            <label for="fruitsQ">apples or oranges</label>
+            <input id="fruitsQ" type="text" name="fruitsQuestion">
+            <label for="hotDrinkQ">coffee or tea</label>
+            <input id="hotDrinkQ" type="text" name="hotDrinkQ">
+            <label for="dancingQ">Do you like to dance? y/n</label>
+            <input id="dancingQ" type="text" name="dancingQ">
+            <label for="morningPersonQ">Are you a morning person? y/n</label>
+            <input id="morningPersonQ" type="text" name="morningPersonQ">
+            <label for="devStyleQ">Do you like backend or frontend development</label>
+            <input id="devStyleQ" type="text" name="devStyleQ">
+            <label for="javascript">JavaScript</label>
+            <button type="submit">Show me what to study!</button>
+        </form>
+        <div id="messageDiv"></div>
+    </div>
+</body>
+
+</html>
